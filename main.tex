@@ -81,12 +81,54 @@ This is a list of commonly used benchmarks in reporting LLMs/MLLMs performance:
     \item Software Engineering Agents: SWE-Bench~\cite{yang2024swe}
     \item Machine Learning Researchers: MLAgentBench~\cite{huang2023mlagentbench}, MLGym~\cite{nathani2025mlgym}
               \end{itemize}
-\subsection{Task Selection}
+\subsection{Task Selection}\label{app:selected-tasks}
 The following is the list of selected benchmark to implement: TBD
+
+We have two main componenets: MLLM evaluation and Leaderboard.
+
+To illustrate the role for each componenet, assume the following scenario:
+\begin{enumerate}
+         \item The researchers want to evaluate their model during Instruction Fine-tuning process or a model that was generated due to a previous tuning step.
+             So, they use MLLM Evaluation tool via python function calling or command line interface, respectively.
+         \item If they provide a link to the Leaderboard, MLLM Evaluation tool communicates with the Leaderboard via http/https to send the results.
+         \item The researchers could track the tables in the Leaderboard and see their cells getting filled with evaluation results.
+              \end{enumerate}
+
 \section{Technical Implementation Plan}
+In the following subsections, I explain in details the steps to make the evaluation framework.
+In table~\ref{tab:timeline}, you can find the list of tasks with their expected deadlines.
 \input{timetable}
+\subsection{MLLM Evaluation Core}
+First, I will write down the main skeleton of the tool.
+This includes: 
+\begin{enumerate}
+         \item Implement the main function for Gemma 3 4B on single dataset,
+         \item taking arguments via both command line and function calling,
+         \item evaluating the model on one benchmark, and
+         \item reporting the results in form of printed text (output of CLI).
+              \end{enumerate}
+\subsection{Add support for some models and datasets}
+Update the code to work with other models like LLaMA and Mistral, and the other datasets~\ref{ssect:selected-tasks}.
+%               \subsection{Multidataset and Multimodels run}
+%               This step includes updating the main function to support running evaluation of many models on many datasets.
+%               Additionally, it includes running large models on more than one compute device (GPU/TPU) and running the whole set of models
+%\subsection{Interfaces}
+\subsection{Leaderboard}
+I plan to make the leaderboard a web application that shows the results of the evaluation for all models.
+Other evaluation scripts are expected to contact this app with the final scores via http/https requests.
+For frameworks, I plan to use FastAPI, Angular and Nginx.
+% Another solution is to upload to tensorboard, but I am not sure whether it will display properly.
+
+\section{Deliverables}
+By the end of this project, I expect to deliver:
+\begin{enumerate}
+         \item Evaluation Git Repo: repository containing the code for MLLM evaluation,
+         \item Leaderboard Repo: repository containing the code for Leaderboard web app, and
+         \item System Paper: explaining the overall system and its design choices.
+              \end{enumerate}
+
 \section{Anticipated Impact}\label{sect:impact}
-By creating this MLLMs evaluation framework, we make it easier to evaluate and compare among MLLMs and understand their capabilities in fine-grained details in domain specific tasks.
+By the end of this project, we end up with an MLLM evaluation tools that make it easier to evaluate MLLMs, compare among them and understand their capabilities in fine-grained details across various general and domain specific tasks.
 
 \section{References}
 \printbibliography[heading=none]

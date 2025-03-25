@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  24 MAR 2025 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  25 MAR 2025 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1258,7 +1258,7 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-37.
+40.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
@@ -1266,34 +1266,43 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (14.6783pt too wide) in paragraph at lines 79--80
+Overfull \hbox (14.6783pt too wide) in paragraph at lines 82--83
 []\T1/pplj/m/n/11 (-10) Machine Learn-ing Re-searchers: MLA-gent-Bench Huang et
  al., []2023, ML-Gym Nathani
  []
 
-(./timetable.tex)
-Overfull \hbox (1.14438pt too wide) in paragraph at lines 88--88
+
+LaTeX Warning: Reference `tab:timeline' on page 2 undefined on input line 99.
+
+(./timetable.tex) [2]
+
+LaTeX Warning: Reference `ssect:selected-tasks' on page 3 undefined on input li
+ne 111.
+
+[3]
+Overfull \hbox (1.14438pt too wide) in paragraph at lines 134--134
 [][]\T1/pplj/m/n/11 (-10) Vedantam, Ra-makr-ishna, Lawrence Zit-nick, C, and Pa
 rikh, Devi (2015). ^^P  Cider:
  []
 
-[2]
-Overfull \hbox (0.82553pt too wide) in paragraph at lines 88--88
+
+Overfull \hbox (0.82553pt too wide) in paragraph at lines 134--134
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
 
-Overfull \hbox (11.29216pt too wide) in paragraph at lines 88--88
+Overfull \hbox (11.29216pt too wide) in paragraph at lines 134--134
 [][]\T1/pplj/m/n/11 (-10) Kantharaj, Shankar, Leong, Rixie Tiffany Ko, Lin, Xi-
 ang, Masry, Ahmed, Thakkar,
  []
 
+[4]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/11'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
- input line 88.
+ input line 134.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/sourcecodepro/T1SourceCodePro-TLF
 .fd
@@ -1301,43 +1310,47 @@ File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
 ceCodePro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 9.70087pt on input line 88.
+(Font)              scaled to size 9.70087pt on input line 134.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [3{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.e
-nc}]
-Overfull \hbox (18.08824pt too wide) in paragraph at lines 88--88
+
+Overfull \hbox (18.08824pt too wide) in paragraph at lines 134--134
 [][]\T1/pplj/m/n/11 (-10) Kovalevskyi, Bo-hdan (2024). ^^P  IFEval-Extended: En
 -hanc-ing Instruction-Following
  []
 
 
-Overfull \hbox (21.37222pt too wide) in paragraph at lines 88--88
+Overfull \hbox (21.37222pt too wide) in paragraph at lines 134--134
 \T1/pplj/m/n/11 (-10) Bench-mark for Ad-vanc-ing AI Re-search Agents^^Q. In: \T
 1/pplj/m/it/11 (-10) arXiv preprint arXiv:2502.14499\T1/pplj/m/n/11 (-10) . 
  []
 
-[4] (./main.aux)
+[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
+c}] [6] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D512E53644D3E55E434F196683CAA7EE;1842.
+(rerunfilecheck)             Checksum: 89A2E7518DF57538B59B5D0B83050044;2499.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29888 strings out of 474116
- 577256 string characters out of 5743682
- 1939187 words of memory out of 5000000
- 51588 multiletter control sequences out of 15000+600000
- 615613 words of font info for 229 fonts, out of 8000000 for 9000
+ 29917 strings out of 474116
+ 577553 string characters out of 5743682
+ 1940187 words of memory out of 5000000
+ 51596 multiletter control sequences out of 15000+600000
+ 615894 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,131p,997b,2194s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,9n,131p,997b,2197s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/adobe/sourcecodepro/SourceCod
 ePro-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fpl
 bij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplbj8a.pf
@@ -1347,10 +1360,10 @@ exlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
 2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2024/t
 exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-di
 st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (4 pages, 178458 bytes).
+Output written on main.pdf (6 pages, 183786 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 79977 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 80009 words of extra memory for PDF output out of 89155 (max. 10000000)
 
