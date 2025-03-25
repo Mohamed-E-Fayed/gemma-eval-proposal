@@ -1,14 +1,94 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[
+	%a4paper, % Use A4 paper size
+	letterpaper, % Use US letter paper size
+]{jdf}
 
-\title{gemma-eval-proposal}
-\author{mohamed.fayed Fayed}
-\date{March 2025}
+\addbibresource{references.bib}
+
+\author{Mohamed Fayed}
+\email{mohamed.fayed.425@gmail.com}
+\title{Benchmarking Gemma Models}
 
 \begin{document}
+%Benchmark Gemma Models: Develop a comprehensive benchmark suite to test Gemma models on a range of tasks and datasets (academic benchmarks like MMLU, GSM8K, etc., and custom datasets).
+%
+%Create scripts for automation. Automate the benchmarking process for various tasks.
+%Compare performance of various Gemma model families. Run the benchmarks on different Gemma model sizes and variants.
+%Compare performance against other open models. Include other popular open models (e.g., Llama 2, Mistral) in the benchmark for comparison.
+%Create informative summaries of benchmark results. Generate reports and visualizations summarizing the results. This should include tables, charts, and potentially a leaderboard.
+%Regular Updates: Design the benchmark to be easily updated with new Gemma models and datasets.
+%Reproducibility: Provide clear instructions and scripts to allow others to reproduce the benchmark results.
+%Complexity: Medium to High. Requires understanding of benchmarking methodologies, machine learning evaluation, and scripting.
+%
+%Expected Size: 175-350 hours.
+%
+%Skills: Python, machine learning evaluation, scripting, data analysis.
 
-\maketitle
+\begin{abstract}
+Gemma models has shown impressive capabilities on many benchmarks.
+However, the authors did not test other open source models against Gemma because their setting does not guarantee for fairness among all of them. %check report page 5.
+    Moreover, there are more specialized benchmarks on which the performance of Gemma is yet to be determined.
+    In our proposal for GSoC 2025, we suggest coding a tool for evaluating a set of Text only and Multimodal Large Language Models.
+     \end{abstract}
 
 \section{Introduction}
+% landscape
+% problems
+% contributions
+During the course of this project, I aim at developping a framework to evaluate Multimodal Large Language Models of the following features:
+     \begin{itemize}
+              \item Support for diverse set of benchmark datasets,
+              \item Build an interface for Huggingface Models to support many models including Gemma, LLaMA, Mistral and other models released in the future.
+              \item Easy interface to run on benchmark datasets, and
+              \item A leaderboard including all results for models tested with our framework.
+                   \end{itemize}
+
+\section{Benchmarks}\label{sect:benchmarks}
+There has been a lot of benchmarks introduced to test MLLMs.
+So, I select a sample of them to be representative to many categories from development perspective.
+For other benchmark testsets, they are expected to be added at a later stage to test the modularity of the framework.
+\subsection{Commonly Used Benchmarks}\label{ssect:common}
+This is a list of commonly used benchmarks in reporting LLMs/MLLMs performance:
+\begin{enumerate}
+    \item MMLU-PRO~\cite{wang2024mmlu} and/or MMLU-ProX~\cite{xuan2025mmlu}
+    \item TruthfulQA\cite{lin2021truthfulqa}
+    \item HellaSwag~\cite{zellers2019hellaswag} and/or HellaSwag-Pro~\cite{li2025hellaswag}
+    \item Big-Bench Lite~\cite{srivastava2023beyond}
+    \item IFEval~\cite{zhou2023instruction} and/or IFEval-Extended~\cite{kovalevskyi2024ifeval}
+              \end{enumerate}
+              \subsection{Coding Tasks}
+              \begin{itemize}
+    \item CodeXGLUE~\cite{lu2021codexglue}
+                            \end{itemize}
+                            \subsection{Chart Related Tasks}
+\subsubsection{Chart-to-Table}
+\begin{itemize}
+    \item Testsets: ChartQA~\cite{masry2022chartqa}, PlotQA~\cite{methani2020plotqa}, ICPR22
+         \item Metrics: Relative Number Set Similarity and Relative Mapping Similarity~\cite{liu2022deplot}
+              \end{itemize}
+\subsubsection{Chart Question Answering}
+\begin{itemize}
+    \item Testsets: ChartQA~\cite{masry2022chartqa}, PlotQA~\cite{methani2020plotqa}, ICPR22
+         \item Metrics: Accuracy, Precision, Recall and F1
+              \end{itemize}
+\subsubsection{Chart Summarization}
+\begin{itemize}
+    \item Testsets: Chart-to-Text~\cite{kantharaj2022chart} and ChartSumm~\cite{rahman2023chartsumm}
+    \item Metrics: BLEU~\cite{post2018call}, CIDEr~\cite{vedantam2015cider}, ROUGE~\cite{lin2004rouge} and BLEURT~\cite{sellam2020bleurt}.
+              \end{itemize}
+\subsection{LLMs as Agents}
+\begin{itemize}
+    \item Software Engineering Agents: SWE-Bench~\cite{yang2024swe}
+    \item Machine Learning Researchers: MLAgentBench~\cite{huang2023mlagentbench}, MLGym~\cite{nathani2025mlgym}
+              \end{itemize}
+\subsection{Task Selection}
+The following is the list of selected benchmark to implement: TBD
+\section{Technical Implementation Plan}
+\input{timetable}
+\section{Anticipated Impact}\label{sect:impact}
+By creating this MLLMs evaluation framework, we make it easier to evaluate and compare among MLLMs and understand their capabilities in fine-grained details in domain specific tasks.
+
+\section{References}
+\printbibliography[heading=none]
 
 \end{document}
