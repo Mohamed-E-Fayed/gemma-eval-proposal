@@ -224,6 +224,136 @@
       \field{title}{BLEURT: Learning robust metrics for text generation}
       \field{year}{2020}
     \endentry
+    \entry{cobbe2021training}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=c9355eeb51a7665fc3d58f45e210fbf6}{%
+           family={Cobbe},
+           familyi={C\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=da0f106450b289c3010ca569b3de9949}{%
+           family={Kosaraju},
+           familyi={K\bibinitperiod},
+           given={Vineet},
+           giveni={V\bibinitperiod}}}%
+        {{hash=69471b8ab1a1d92877d0dfe5f57411e3}{%
+           family={Bavarian},
+           familyi={B\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fb15a691583ec94aafe0be6e7da4878f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3dd736ee38ff1cbcc6f0d05487b9950b}{%
+           family={Jun},
+           familyi={J\bibinitperiod},
+           given={Heewoo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=599240d5bfe42aeb65a0c26dae77cd31}{%
+           family={Plappert},
+           familyi={P\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=98cbd7022a1c31a6293aa1c8b62bdebf}{%
+           family={Tworek},
+           familyi={T\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9e4edc142b0564cbbb1cf93a401e4434}{%
+           family={Hilton},
+           familyi={H\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=13b885c1233d3f59261e0e53ec1aece0}{%
+           family={Nakano},
+           familyi={N\bibinitperiod},
+           given={Reiichiro},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{45858a0ae98644e6c6bc549ac1a2cfa3}
+      \strng{fullhash}{c282569403e9b6d2144e02d794e8895b}
+      \strng{bibnamehash}{c282569403e9b6d2144e02d794e8895b}
+      \strng{authorbibnamehash}{c282569403e9b6d2144e02d794e8895b}
+      \strng{authornamehash}{45858a0ae98644e6c6bc549ac1a2cfa3}
+      \strng{authorfullhash}{c282569403e9b6d2144e02d794e8895b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2110.14168}
+      \field{title}{Training verifiers to solve math word problems}
+      \field{year}{2021}
+    \endentry
+    \entry{hendrycks2021measuring}{article}{}
+      \name{author}{8}{}{%
+        {{hash=86d0b4ecd6b6066d49e7aecde6e5e630}{%
+           family={Hendrycks},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=624605ebd8b6b403b251522e3d1029ff}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={Collin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ae50339c3e9c1418ade64e74fa002ef5}{%
+           family={Kadavath},
+           familyi={K\bibinitperiod},
+           given={Saurav},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a3e8b92acb1bf8b2b186f6b10d4ae704}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={Akul},
+           giveni={A\bibinitperiod}}}%
+        {{hash=35f72302a7aebfd095414ce218b8fb5d}{%
+           family={Basart},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ffd1907ef0a8bbed89fa04d783f236b6}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d458d5f9b64652055bd81d57e4777b22}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Dawn},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fe7a7e80c1857d185d3ab01f15fe584d}{%
+           family={Steinhardt},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f461c117afa272374439d2db3ee67282}
+      \strng{fullhash}{821f0c67ea3dbc37f0422b8c2bda174e}
+      \strng{bibnamehash}{821f0c67ea3dbc37f0422b8c2bda174e}
+      \strng{authorbibnamehash}{821f0c67ea3dbc37f0422b8c2bda174e}
+      \strng{authornamehash}{f461c117afa272374439d2db3ee67282}
+      \strng{authorfullhash}{821f0c67ea3dbc37f0422b8c2bda174e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2103.03874}
+      \field{title}{Measuring mathematical problem solving with the math dataset}
+      \field{year}{2021}
+    \endentry
     \entry{lin2021truthfulqa}{article}{}
       \name{author}{3}{}{%
         {{hash=00fd40e4b8f963e9edd28ee849b64ef0}{%
@@ -494,6 +624,77 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2203.10244}
       \field{title}{Chartqa: A benchmark for question answering about charts with visual and logical reasoning}
+      \field{year}{2022}
+    \endentry
+    \entry{shi2022language}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=beafe8b6b1010e0fff35b884d2e00f54}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Freda},
+           giveni={F\bibinitperiod}}}%
+        {{hash=25ec2d343e5a8bcf8fd2513198259cd1}{%
+           family={Suzgun},
+           familyi={S\bibinitperiod},
+           given={Mirac},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5b7f2cb573209e65791afcd847dce6f4}{%
+           family={Freitag},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=27d22d8f05f44b47f7dcfe9b7fb85584}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xuezhi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=5124fe7687b177656d9fff181a97a320}{%
+           family={Srivats},
+           familyi={S\bibinitperiod},
+           given={Suraj},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ebb347d48a8f2885b4a3e7fe036e6754}{%
+           family={Vosoughi},
+           familyi={V\bibinitperiod},
+           given={Soroush},
+           giveni={S\bibinitperiod}}}%
+        {{hash=10118dd89bd210596b82c1b6feb26faf}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Hyung\bibnamedelima Won},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=7579658a0aca8cb0e17a89deb28b8ccc}{%
+           family={Tay},
+           familyi={T\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b468248a20d75c52ee742f4592c2569f}{%
+           family={Ruder},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=797f9a226fd7356db5edc6feba1a0e87}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Denny},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c836f7a7a37a82ae2a14a1362e72221}
+      \strng{fullhash}{43d4a4ae9520bdb746f299dbe6f5f9a0}
+      \strng{bibnamehash}{43d4a4ae9520bdb746f299dbe6f5f9a0}
+      \strng{authorbibnamehash}{43d4a4ae9520bdb746f299dbe6f5f9a0}
+      \strng{authornamehash}{7c836f7a7a37a82ae2a14a1362e72221}
+      \strng{authorfullhash}{43d4a4ae9520bdb746f299dbe6f5f9a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2210.03057}
+      \field{title}{Language models are multilingual chain-of-thought reasoners}
       \field{year}{2022}
     \endentry
     \entry{srivastava2023beyond}{article}{}
@@ -892,6 +1093,65 @@
       \verb{url}
       \verb https://github.com/EvolvingLMMs-Lab/lmms-eval
       \endverb
+    \endentry
+    \entry{rein2024gpqa}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=571ea7eeb54fbe051676530e45f5c476}{%
+           family={Rein},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=326f65c717b71a35e87ac37a2274f9e2}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Betty\bibnamedelima Li},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=61097b6f6685da8c262f4d403cd8e029}{%
+           family={Stickland},
+           familyi={S\bibinitperiod},
+           given={Asa\bibnamedelima Cooper},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=bd59269216d164bb92b05d7bbef073e8}{%
+           family={Petty},
+           familyi={P\bibinitperiod},
+           given={Jackson},
+           giveni={J\bibinitperiod}}}%
+        {{hash=951332d8aa428c22a492fccbd251a59b}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima Yuanzhe},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=1f19185db7e28d9911cdd1e7ef1165d6}{%
+           family={Dirani},
+           familyi={D\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3feba1c10a571e263046668233708f6d}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc3587de57b6b9868eab5cb9c8efc3fb}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Samuel\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{74e4471c41ee74a6b5d90ff9cf3d073c}
+      \strng{fullhash}{0a417b50ee23beff0778455603dae5c7}
+      \strng{bibnamehash}{0a417b50ee23beff0778455603dae5c7}
+      \strng{authorbibnamehash}{0a417b50ee23beff0778455603dae5c7}
+      \strng{authornamehash}{74e4471c41ee74a6b5d90ff9cf3d073c}
+      \strng{authorfullhash}{0a417b50ee23beff0778455603dae5c7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{First Conference on Language Modeling}
+      \field{title}{Gpqa: A graduate-level google-proof q\&a benchmark}
+      \field{year}{2024}
     \endentry
     \entry{wang2024mmlu}{inproceedings}{}
       \true{moreauthor}
