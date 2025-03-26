@@ -24,16 +24,23 @@
 %
 %Skills: Python, machine learning evaluation, scripting, data analysis.
 
+\maketitle
 \begin{abstract}
-Gemma models has shown impressive capabilities on many benchmarks.
-However, the authors did not test other open source models against Gemma because their setting does not guarantee for fairness among all of them. %check report page 5.
-    Moreover, there are more specialized benchmarks on which the performance of Gemma is yet to be determined.
-    In our proposal for GSoC 2025, we suggest coding a tool for evaluating a set of Text only and Multimodal Large Language Models.
+    Evaluating Multimodal large language models (MLLMs) is crucial to understanding their capabilities, limitations, and behavior in real-world applications.
+    This proposal presents a comprehensive benchmark suite for Gemma models, focusing on diverse datasets, automation, and comparative analysis against other state-of-the-art open models.
+    My goal is to provide a easy-to-use and robust evaluation framework that facilitates model evaluation, selection and continuous monitoring.
      \end{abstract}
 
 \section{Introduction}
 % landscape
-% problems
+Multimodal Large language models (MLLMs) have demonstrated remarkable capabilities in various natural language processing (NLP) tasks. 
+The performance of these models varies significantly based on architecture, training data, and task requirements.
+There has been a couple of text only based frameworks to evaluate and compare among models\cite{eval-harness},~\cite{hf-openllmleaderboard}.
+However, MLLMs has not witnessed similar attention~\cite{lmms-eval2024} which does not cover all models families, does not cover many multimodal datasets and is not easy-to-use for model evaluation.
+
+To systematically evaluate the strengths and weaknesses of MLLMs, we propose a benchmarking framework covering large variety of multimodal datasets.
+This evaluation aims to provide insights into reliability, efficiency, and competitiveness among open-source models, with special attention to family of Gemma models.
+
 % contributions
 During the course of this project, I aim at developping a framework to evaluate Multimodal Large Language Models of the following features:
      \begin{itemize}
@@ -81,9 +88,12 @@ This is a list of commonly used benchmarks in reporting LLMs/MLLMs performance:
     \item Software Engineering Agents: SWE-Bench~\cite{yang2024swe}
     \item Machine Learning Researchers: MLAgentBench~\cite{huang2023mlagentbench}, MLGym~\cite{nathani2025mlgym}
               \end{itemize}
-\subsection{Task Selection}\label{app:selected-tasks}
-The following is the list of selected benchmark to implement: TBD
+\subsection{Task Selection}\label{ssect:selected-tasks}
+For the first two months, I will focuson covering largest number of categories.
+After that, I will pay closer attention to adding more benchmarks to each family.
+The list of selected benchmark to implement: TBD.
 
+\section{System Overview}\label{sect:sys-overview}
 We have two main componenets: MLLM evaluation and Leaderboard.
 
 To illustrate the role for each componenet, assume the following scenario:
@@ -109,15 +119,16 @@ This includes:
               \end{enumerate}
 \subsection{Add support for some models and datasets}
 Update the code to work with other models like LLaMA and Mistral, and the other datasets~\ref{ssect:selected-tasks}.
-%               \subsection{Multidataset and Multimodels run}
-%               This step includes updating the main function to support running evaluation of many models on many datasets.
-%               Additionally, it includes running large models on more than one compute device (GPU/TPU) and running the whole set of models
-%\subsection{Interfaces}
+It is expected to start at week 3 and ends before week 9.
+Adding datasets within the same categories would be within the last month.
 \subsection{Leaderboard}
-I plan to make the leaderboard a web application that shows the results of the evaluation for all models.
+I plan to make the leaderboard a web application that shows the results of the evaluation for all models on selected datasets.
 Other evaluation scripts are expected to contact this app with the final scores via http/https requests.
 For frameworks, I plan to use FastAPI, Angular and Nginx.
 % Another solution is to upload to tensorboard, but I am not sure whether it will display properly.
+
+The datasets will be categorized similar to subsections names within section~\ref{sect:benchmarks}.
+New categories are expected to be added dynamically while the application is up and running.
 
 \section{Deliverables}
 By the end of this project, I expect to deliver:
@@ -129,6 +140,10 @@ By the end of this project, I expect to deliver:
 
 \section{Anticipated Impact}\label{sect:impact}
 By the end of this project, we end up with an MLLM evaluation tools that make it easier to evaluate MLLMs, compare among them and understand their capabilities in fine-grained details across various general and domain specific tasks.
+
+\section{Future Work}
+This proposal does not cover testing models via API like openai or gemini.
+In a future release, it is expected to add API support to this tool and sending requests via curl which will make it easier to test models under development, custom models within docker containers and those do not have implementation on Hugging Face Transformers.
 
 \section{References}
 \printbibliography[heading=none]

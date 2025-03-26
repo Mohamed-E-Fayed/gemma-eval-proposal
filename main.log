@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  25 MAR 2025 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  26 MAR 2025 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,13 +1210,13 @@ Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 34
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 27
 .
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 34.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 34
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 27.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 27
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeur.fd
@@ -1225,7 +1225,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 34
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 27
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeus.fd
@@ -1234,14 +1234,14 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 3
-4.
+LaTeX Font Info:    Trying to load font information for U+zeuex on input line 2
+7.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-34.
+27.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1258,51 +1258,48 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-40.
+47.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 ) [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (14.6783pt too wide) in paragraph at lines 82--83
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+Overfull \hbox (14.6783pt too wide) in paragraph at lines 89--90
 []\T1/pplj/m/n/11 (-10) Machine Learn-ing Re-searchers: MLA-gent-Bench Huang et
  al., []2023, ML-Gym Nathani
  []
 
+(./timetable.tex
+Overfull \hbox (29.5037pt too wide) in paragraph at lines 2--9
+[][] 
+ []
 
-LaTeX Warning: Reference `tab:timeline' on page 2 undefined on input line 99.
-
-(./timetable.tex) [2]
-
-LaTeX Warning: Reference `ssect:selected-tasks' on page 3 undefined on input li
-ne 111.
-
-[3]
-Overfull \hbox (1.14438pt too wide) in paragraph at lines 134--134
+) [3] [4]
+Overfull \hbox (1.14438pt too wide) in paragraph at lines 149--149
 [][]\T1/pplj/m/n/11 (-10) Vedantam, Ra-makr-ishna, Lawrence Zit-nick, C, and Pa
 rikh, Devi (2015). ^^P  Cider:
  []
 
 
-Overfull \hbox (0.82553pt too wide) in paragraph at lines 134--134
+Overfull \hbox (0.82553pt too wide) in paragraph at lines 149--149
 \T1/pplj/m/n/11 (-10) (2020). ^^P  Plotqa: Rea-son-ing over sci-en-tific plots^
 ^Q. In: \T1/pplj/m/it/11 (-10) Pro-ceed-ings of the IEEE/CVF
  []
 
 
-Overfull \hbox (11.29216pt too wide) in paragraph at lines 134--134
+Overfull \hbox (11.29216pt too wide) in paragraph at lines 149--149
 [][]\T1/pplj/m/n/11 (-10) Kantharaj, Shankar, Leong, Rixie Tiffany Ko, Lin, Xi-
 ang, Masry, Ahmed, Thakkar,
  []
 
-[4]
+[5]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/11'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
- input line 134.
+ input line 149.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/sourcecodepro/T1SourceCodePro-TLF
 .fd
@@ -1310,60 +1307,60 @@ File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
 ceCodePro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 9.70087pt on input line 134.
+(Font)              scaled to size 9.70087pt on input line 149.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (18.08824pt too wide) in paragraph at lines 134--134
+Overfull \hbox (18.08824pt too wide) in paragraph at lines 149--149
 [][]\T1/pplj/m/n/11 (-10) Kovalevskyi, Bo-hdan (2024). ^^P  IFEval-Extended: En
 -hanc-ing Instruction-Following
  []
 
-
-Overfull \hbox (21.37222pt too wide) in paragraph at lines 134--134
+[6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
+c}]
+Overfull \hbox (21.37222pt too wide) in paragraph at lines 149--149
 \T1/pplj/m/n/11 (-10) Bench-mark for Ad-vanc-ing AI Re-search Agents^^Q. In: \T
 1/pplj/m/it/11 (-10) arXiv preprint arXiv:2502.14499\T1/pplj/m/n/11 (-10) . 
  []
 
-[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.en
-c}] [6] (./main.aux)
+[7] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 89A2E7518DF57538B59B5D0B83050044;2499.
+(rerunfilecheck)             Checksum: C8D352B4BDC30D244F2D7BB70E5A4615;2723.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 27 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 29917 strings out of 474116
- 577553 string characters out of 5743682
- 1940187 words of memory out of 5000000
- 51596 multiletter control sequences out of 15000+600000
- 615894 words of font info for 233 fonts, out of 8000000 for 9000
+ 29979 strings out of 474116
+ 578538 string characters out of 5743682
+ 1938187 words of memory out of 5000000
+ 51619 multiletter control sequences out of 15000+600000
+ 621083 words of font info for 261 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,131p,997b,2197s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/adobe/sourcecodepro/SourceCod
-ePro-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fpl
-bij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplbj8a.pf
-b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
-2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-di
-st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (6 pages, 183786 bytes).
+ 94i,9n,131p,997b,2424s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/adobe/sourcecod
+epro/SourceCodePro-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
+public/fpl/fplbij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
+fpl/fplbj8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplr
+c8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (7 pages, 192954 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 61 named destinations out of 1000 (max. 500000)
- 80009 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 82585 words of extra memory for PDF output out of 89155 (max. 10000000)
 

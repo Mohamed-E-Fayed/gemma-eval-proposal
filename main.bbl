@@ -674,6 +674,158 @@
       \field{title}{Instruction-following evaluation for large language models}
       \field{year}{2023}
     \endentry
+    \entry{eval-harness}{misc}{}
+      \name{author}{24}{}{%
+        {{hash=5507d34dbd17d768ebf4620f85594a2b}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c64ac147d6304f963970674e9bfc0c3f}{%
+           family={Tow},
+           familyi={T\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5f304a65bdfda109daf63bbf4a6193f1}{%
+           family={Abbasi},
+           familyi={A\bibinitperiod},
+           given={Baber},
+           giveni={B\bibinitperiod}}}%
+        {{hash=865b3a07920bcd999406ae3062b413fa}{%
+           family={Biderman},
+           familyi={B\bibinitperiod},
+           given={Stella},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8af8ca5f0b2c8e572957f767f9c8f910}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Sid},
+           giveni={S\bibinitperiod}}}%
+        {{hash=10ec2d017636d06c00d85df51fef78b6}{%
+           family={DiPofi},
+           familyi={D\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2c3115c5f4deb0a93b0f050e61ef1712}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=dc995b6c205d77c198fe2367992db692}{%
+           family={Golding},
+           familyi={G\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5423bf018189c77ed256687cdf163c7e}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b7a7319bca01467d7584d90b65ac168e}{%
+           family={Le\bibnamedelima Noac'h},
+           familyi={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{hash=660432d549808eb388222f2b239999d5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haonan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3768a1eecab98a9a7b681ab448262ca4}{%
+           family={McDonell},
+           familyi={M\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a2deb8466aa6f0edfe3cc805f9d776d8}{%
+           family={Muennighoff},
+           familyi={M\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d7473eb7b98c858d27c82241b7322dcd}{%
+           family={Ociepa},
+           familyi={O\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=29552333c9a97a9a00b73e517562b786}{%
+           family={Phang},
+           familyi={P\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5afa2b0ad68750a05c11de571d07390d}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Laria},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d0c7890613cd672b3d6658709fbd7b0c}{%
+           family={Schoelkopf},
+           familyi={S\bibinitperiod},
+           given={Hailey},
+           giveni={H\bibinitperiod}}}%
+        {{hash=caeee6d3b2648a82c342f32bd894b780}{%
+           family={Skowron},
+           familyi={S\bibinitperiod},
+           given={Aviya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4d951c2131a054e77beed93072b7f037}{%
+           family={Sutawika},
+           familyi={S\bibinitperiod},
+           given={Lintang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ffd1907ef0a8bbed89fa04d783f236b6}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0859aab679a69d137e1d6db568c02e8f}{%
+           family={Thite},
+           familyi={T\bibinitperiod},
+           given={Anish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89867761cca83ffcddbf67a0b76a8c1e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=069dc336b3fb2f586b29076e5ab0d101}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4817500e279ce97b8c8f18b92a2a6ead}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{d611c484b71686c36aa03d3e7e32d7a1}
+      \strng{fullhash}{ee5abd3f366cf838a8874f2bcc34bf51}
+      \strng{bibnamehash}{ee5abd3f366cf838a8874f2bcc34bf51}
+      \strng{authorbibnamehash}{ee5abd3f366cf838a8874f2bcc34bf51}
+      \strng{authornamehash}{d611c484b71686c36aa03d3e7e32d7a1}
+      \strng{authorfullhash}{ee5abd3f366cf838a8874f2bcc34bf51}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{title}{A framework for few-shot language model evaluation}
+      \field{version}{v0.4.3}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.5281/zenodo.12608602
+      \endverb
+      \verb{urlraw}
+      \verb https://zenodo.org/records/12608602
+      \endverb
+      \verb{url}
+      \verb https://zenodo.org/records/12608602
+      \endverb
+    \endentry
     \entry{kovalevskyi2024ifeval}{article}{}
       \name{author}{1}{}{%
         {{hash=40dacff6a8541174cd7873513a4c57b4}{%
@@ -701,6 +853,45 @@
       \field{year}{2024}
       \field{pages}{513\bibrangedash 524}
       \range{pages}{12}
+    \endentry
+    \entry{lmms-eval2024}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=bb7b13e6467a11a0aa259e791be6cfd4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bo\bibnamedelima Liand\bibnamedelimb Peiyuan\bibnamedelimb Zhangand\bibnamedelimb Kaichen\bibnamedelimb Zhangand\bibnamedelimb Fanyi\bibnamedelimb Puand\bibnamedelimb Xinrun\bibnamedelimb Duand\bibnamedelimb Yuhao\bibnamedelimb Dongand\bibnamedelimb Haotian\bibnamedelimb Liuand\bibnamedelimb Yuanhan\bibnamedelimb Zhangand\bibnamedelimb Ge\bibnamedelimb Zhangand\bibnamedelima Chunyuan},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim X\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=15a5322a1b261fe95ac6e04758acf39c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ziwei},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{d5567a61c354903792289ce9530f0d90}
+      \strng{fullhash}{d5567a61c354903792289ce9530f0d90}
+      \strng{bibnamehash}{d5567a61c354903792289ce9530f0d90}
+      \strng{authorbibnamehash}{d5567a61c354903792289ce9530f0d90}
+      \strng{authornamehash}{d5567a61c354903792289ce9530f0d90}
+      \strng{authorfullhash}{d5567a61c354903792289ce9530f0d90}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{LMMs-Eval: Accelerating the Development of Large Multimoal Models}
+      \field{version}{v0.1.0}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/EvolvingLMMs-Lab/lmms-eval
+      \endverb
+      \verb{url}
+      \verb https://github.com/EvolvingLMMs-Lab/lmms-eval
+      \endverb
     \endentry
     \entry{wang2024mmlu}{inproceedings}{}
       \true{moreauthor}
@@ -1035,6 +1226,19 @@
       \field{journaltitle}{arXiv preprint arXiv:2503.10497}
       \field{title}{MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation}
       \field{year}{2025}
+    \endentry
+    \entry{hf-openllmleaderboard}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Open LLM Leaderboard}
+      \verb{urlraw}
+      \verb https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
